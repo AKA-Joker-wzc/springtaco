@@ -1,9 +1,7 @@
-package com.example.springtaco.controller;
+package com.example.springtaco.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @Controller  //控制器
 public class HomeController {

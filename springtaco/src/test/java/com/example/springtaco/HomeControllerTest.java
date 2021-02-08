@@ -1,6 +1,6 @@
 package com.example.springtaco;
 
-import com.example.springtaco.controller.HomeController;
+import com.example.springtaco.web.HomeController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,11 +8,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import org.springframework.test.web.servlet.MockMvc;
-
-import org.springframework.test.web.servlet.ResultMatcher;
-
-import java.nio.file.FileStore;
-import java.util.function.Consumer;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(HomeController.class) //针对homeController进行的web测试
