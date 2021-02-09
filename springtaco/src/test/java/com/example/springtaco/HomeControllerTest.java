@@ -1,6 +1,5 @@
 package com.example.springtaco;
 
-import com.example.springtaco.web.HomeController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(HomeController.class) //针对homeController进行的web测试
+@WebMvcTest() //针对homeController进行的web测试
 public class HomeControllerTest {
     @Autowired
     private MockMvc mockMvc;  //注入MockMVC
